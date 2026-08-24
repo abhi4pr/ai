@@ -1,0 +1,23 @@
+#################################
+sudo apt install python3-pip
+python3 -m venv .venv
+source .venv/bin/activate
+pip install uv
+uv init
+
+#################################
+uv Python ka modern, fast package and project manager hai (ye python ke pip se install nahi hota he). 
+Ye pip ka faster alternative hai, aur virtual environments, dependency management, Python versions, etc.
+ ko bhi manage kar sakta hai
+
+uv sync => start virtual environments
+
+################################
+toml file mainly configuration/settings ko readable way mein store karne ke liye use hoti hai.
+
+################################
+.ipynb file ka matlab Jupyter Notebook file hota hai.
+
+Isme code + output + explanation + charts sab ek hi file mein rakhe ja sakte hain.
+
+#################################
