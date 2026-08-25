@@ -17,7 +17,12 @@ toml file mainly configuration/settings ko readable way mein store karne ke liye
 
 ################################
 .ipynb file ka matlab Jupyter Notebook file hota hai.
-
 Isme code + output + explanation + charts sab ek hi file mein rakhe ja sakte hain.
+to use this u have to install it like
+uv add --dev ipykernel
+
+#################################
+cat ~/.ssh/id_ed25519.pub 
+this command is use to get your public ssh key for github permission
 
 #################################
