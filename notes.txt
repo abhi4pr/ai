@@ -52,3 +52,7 @@ Predicting tokens = whenever a llm generate you answer it gives you word by word
 like gives one token(word) then attach in input then second token then attach in input and so on....
 
 #################################
+PDF will convert into chunking then each chunk will have different embeddings then each embedding will save in vectorDB 
+with the actual pdf chunked contents.
+now when user will enter his query (for result/answer) now its query also will convert into vector thats called query vector, 
+will search in vectorDB as semantic/similarity search thats called RAG (retrieval augmentation generation)
