@@ -56,3 +56,19 @@ PDF will convert into chunking then each chunk will have different embeddings th
 with the actual pdf chunked contents.
 now when user will enter his query (for result/answer) now its query also will convert into vector thats called query vector, 
 will search in vectorDB as semantic/similarity search thats called RAG (retrieval augmentation generation)
+
+#################################
+prompt engineering:-
+there are 4 types of prompts
+- zero shot prompt in which you directly pass the prompt without giving any example
+- one shot prompt in which you provide only one example with given prompt
+- few shot prompt in which you give multiple examples with prompt
+- chain of thoughts prompt in which you provide step by step reasoning with prompt
+
+#################################
+ReAct (reasoning + action):-
+
+LLMs have knowledge learned during training, but that knowledge may not contain the latest information. 
+To answer questions requiring current or private data, applications can connect the LLM to external tools 
+such as web search, SQL databases, APIs, or internal systems. This is commonly called tool calling or function calling.
+A reasoning/action loop where the model reasons, acts, observes the result, then give the result is known as ReAct
