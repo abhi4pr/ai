@@ -72,3 +72,8 @@ LLMs have knowledge learned during training, but that knowledge may not contain 
 To answer questions requiring current or private data, applications can connect the LLM to external tools 
 such as web search, SQL databases, APIs, or internal systems. This is commonly called tool calling or function calling.
 A reasoning/action loop where the model reasons, acts, observes the result, then give the result is known as ReAct
+
+##################################
+To print the ai output in structured output there are 2 ways:-
+- directly write the answer format in query prompt
+- pydantic schema
